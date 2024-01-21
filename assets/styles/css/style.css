@@ -420,4 +420,121 @@ body {
   box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-row .contact-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.order {
+  background: linear-gradient(0deg, rgba(26, 35, 110, 0.5) 0%, rgba(26, 35, 110, 0.5) 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+}
+
+.order-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+.order-row .order-top {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 100px;
+}
+.order-row .order-top h1 {
+  color: var(--Text-Dark-Title, #FFF);
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+}
+.order-row .order-top p {
+  color: var(--Text-Dark-Body, rgba(255, 255, 255, 0.8));
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.order-row .order-bottom {
+  margin-bottom: 100px;
+}
+.order-row .order-bottom .input-btn {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.order-row .order-bottom .input-btn .form-tel input {
+  max-width: 260px;
+  box-sizing: border-box;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  color: var(--black-20, rgba(0, 0, 0, 0.2));
+  padding: 20px 20px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid var(--Elements-Light-Border, rgba(0, 0, 0, 0.1));
+  outline: none;
+}
+.order-row .order-bottom .input-btn .order-btn {
+  display: flex;
+}
+.order-row .order-bottom .input-btn .order-btn .order-botton {
+  border-radius: 8px;
+  background: #FCDF00;
+  height: 56px;
+  padding: 16px 20px;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.order-row .order-bottom .input-btn .order-btn .order-botton p {
+  color: #1A236E;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.order-row .order-bottom .input-btn .order-btn .order-botton:hover {
+  box-shadow: 0px 4px 16px 0px rgba(255, 255, 31, 0.64), 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+}
+.order-row .order-bottom .order-comments {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.order-row .order-bottom .order-comments p {
+  text-align: center;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.order-row .order-bottom .order-comments p span {
+  color: var(--Text-Dark-Label, rgba(255, 255, 255, 0.7));
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
