@@ -27,7 +27,6 @@ body {
 }
 .header-row .logo {
   display: flex;
-  margin-right: 236px;
 }
 .header-row .logo .logo-title {
   color: #1A236E;
@@ -52,9 +51,6 @@ body {
   color: #1A236E;
   text-decoration: underline;
 }
-.header-row .contact-header {
-  margin-left: 40px;
-}
 .header-row .contact-header .contact-header-title {
   color: rgba(26, 35, 110, 0.7);
   text-align: right;
@@ -71,7 +67,6 @@ body {
 }
 .header-row .header-btn {
   display: flex;
-  margin-left: 32px;
 }
 .header-row .header-btn .header-botton {
   display: flex;

@@ -8,7 +8,6 @@
     margin-bottom: 24px;
     .logo{
         display: flex;
-        margin-right: 236px;
         .logo-title{
             color: $primary;
             font-size: 28px;
@@ -30,12 +29,11 @@
         }
         .nav-item:hover{
             color:$primary;
-            text-decoration: underline
+            text-decoration: underline;
         }
     }
     .contact-header{
         @extend %display-col;
-        margin-left: 40px;
         .contact-header-title{
             color: rgba(26, 35, 110, 0.70);
             text-align: right;
@@ -53,7 +51,6 @@
     }
     .header-btn{
         display: flex;
-        margin-left: 32px;
         .header-botton{
             display: flex;
             padding: 12px 24px;

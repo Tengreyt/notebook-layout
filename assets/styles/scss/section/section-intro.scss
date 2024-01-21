@@ -1,0 +1,12 @@
+@import '../variables.scss';
+@import '../layout.scss';
+.intro{
+    position: relative;
+    .bg-intro{
+        position: absolute;
+        z-index: -1;
+        left: 0px;
+        width: 1920px;
+        height: 858px;  
+    }
+}
