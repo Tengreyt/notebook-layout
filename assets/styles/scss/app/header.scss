@@ -1,0 +1,73 @@
+@import '../variables.scss';
+@import '../layout.scss';
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    .logo{
+        display: flex;
+        margin-right: 236px;
+        .logo-title{
+            color: $primary;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 32px; 
+        }
+    }
+    .nav{
+        display: flex;
+        gap: 24px;
+        .nav-item{
+            color: rgba(26, 35, 110, 0.70);
+            text-align: right;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px; 
+            text-decoration: none;
+            transition: all .2s ease-in-out;
+        }
+        .nav-item:hover{
+            color:$primary;
+            text-decoration: underline
+        }
+    }
+    .contact-header{
+        @extend %display-col;
+        margin-left: 40px;
+        .contact-header-title{
+            color: rgba(26, 35, 110, 0.70);
+            text-align: right;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 18px; 
+        }
+        .contact-header-number{
+            color: $primary;
+            text-align: right;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px; 
+        }
+    }
+    .header-btn{
+        display: flex;
+        margin-left: 32px;
+        .header-botton{
+            display: flex;
+            padding: 12px 24px;
+            align-items: center;
+            gap: 10px;
+            border-radius: 6px;
+            border: 1px solid var(--Elements-Light-Border, rgba(0, 0, 0, 0.10));
+            cursor: pointer;
+            .header-btn-text{
+                color: $primary;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 20px; 
+            }
+        }
+    }
+}

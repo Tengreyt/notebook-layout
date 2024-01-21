@@ -1,0 +1,113 @@
+@import 'https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-row .contact-header {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-row .contact-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.header-row .logo {
+  display: flex;
+  margin-right: 236px;
+}
+.header-row .logo .logo-title {
+  color: #1A236E;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.header-row .nav {
+  display: flex;
+  gap: 24px;
+}
+.header-row .nav .nav-item {
+  color: rgba(26, 35, 110, 0.7);
+  text-align: right;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.header-row .nav .nav-item:hover {
+  color: #1A236E;
+  text-decoration: underline;
+}
+.header-row .contact-header {
+  margin-left: 40px;
+}
+.header-row .contact-header .contact-header-title {
+  color: rgba(26, 35, 110, 0.7);
+  text-align: right;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.header-row .contact-header .contact-header-number {
+  color: #1A236E;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.header-row .header-btn {
+  display: flex;
+  margin-left: 32px;
+}
+.header-row .header-btn .header-botton {
+  display: flex;
+  padding: 12px 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid var(--Elements-Light-Border, rgba(0, 0, 0, 0.1));
+  cursor: pointer;
+}
+.header-row .header-btn .header-botton .header-btn-text {
+  color: #1A236E;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
