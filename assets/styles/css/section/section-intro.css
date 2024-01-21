@@ -13,15 +13,97 @@ body {
   margin: 0 auto;
 }
 
-.intro {
+.intro .rel-img {
   position: relative;
 }
-.intro .bg-intro {
+.intro .rel-img .bg-intro {
   position: absolute;
   z-index: -1;
   left: 0px;
-  width: 1920px;
+  width: 1903px;
   height: 858px;
+}
+.intro .intro-row {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 223.5px;
+}
+.intro .intro-row .intro-title {
+  color: #fff;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 68px;
+}
+.intro .intro-row .intro-subtitle {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+}
+.intro .intro-row .intro-btn {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+.intro .intro-row .intro-btn .botton-intro-yellow {
+  display: flex;
+  background: #FCDF00;
+  padding: 20px 32px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.intro .intro-row .intro-btn .botton-intro-yellow .botton-intro-text {
+  color: #1A236E;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.intro .intro-row .intro-btn .botton-intro-yellow:hover {
+  box-shadow: 0px 4px 16px 0px rgba(255, 255, 31, 0.64), 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+}
+.intro .intro-row .intro-btn .botton-intro-white {
+  display: flex;
+  background: #fff;
+  padding: 20px 32px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.intro .intro-row .intro-btn .botton-intro-white .botton-intro-text {
+  color: #1A236E;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.intro .intro-row .intro-btn .botton-intro-white:hover {
+  box-shadow: 0px 4px 20px 0px rgba(97, 93, 93, 0.64), 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+}
+.intro .intro-row .bottom-p {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.intro .intro-row .bottom-p .bottom-text {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  max-width: 466px;
+}
+.intro .intro-row .down-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 127px;
+  margin-bottom: 16px;
 }
 
 /*# sourceMappingURL=section-intro.css.map */

@@ -1,12 +1,96 @@
 @import '../variables.scss';
 @import '../layout.scss';
 .intro{
-    position: relative;
-    .bg-intro{
-        position: absolute;
-        z-index: -1;
-        left: 0px;
-        width: 1920px;
-        height: 858px;  
+    .rel-img{
+        position: relative;
+        .bg-intro{
+            position: absolute;
+            z-index: -1;
+            left: 0px;
+            width: 1903px;
+            height: 858px;  
+        }
+    }
+    .intro-row{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        padding-top: 223.5px;
+        .intro-title{
+            color: $secondary;
+            text-align: center;
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 68px; 
+        }
+        .intro-subtitle{
+            color: $secondary;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 130%; 
+        }
+        .intro-btn{
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 10px;
+            .botton-intro-yellow{
+                display: flex;
+                background: $tertiary;
+                padding: 20px 32px;
+                border-radius: 6px;
+                cursor: pointer;
+                transition: all .2s ease-in-out;
+                .botton-intro-text{
+                    color: $primary;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 24px; 
+                }
+            }
+            .botton-intro-yellow:hover{
+                box-shadow: 0px 4px 16px 0px rgba(255, 255, 31, 0.64), 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+            }
+            .botton-intro-white{
+                display: flex;
+                background: $secondary;
+                padding: 20px 32px;
+                border-radius: 6px;
+                cursor: pointer;
+                transition: all .2s ease-in-out;
+                .botton-intro-text{
+                    color: $primary;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 24px; 
+                }
+            }
+            .botton-intro-white:hover{
+                box-shadow: 0px 4px 20px 0px rgba(97, 93, 93, 0.64), 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+            }
+        }
+        .bottom-p{
+            display: flex;
+            justify-content: center;
+            margin-top: 24px;
+            .bottom-text{
+                color:  rgba(255, 255, 255, 0.70);
+                text-align: center;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 20px; 
+                max-width: 466px;
+            }
+        }
+        .down-icon{
+            display: flex;
+            justify-content: center;
+            margin-top: 127px;
+            margin-bottom: 16px;
+        }
     }
 }

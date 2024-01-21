@@ -76,12 +76,16 @@ body {
   border-radius: 6px;
   border: 1px solid var(--Elements-Light-Border, rgba(0, 0, 0, 0.1));
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 .header-row .header-btn .header-botton .header-btn-text {
   color: #1A236E;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
+}
+.header-row .header-btn .header-botton:hover {
+  box-shadow: 0px 4px 10px 0px rgba(109, 108, 108, 0.64), 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
 }
 
 /*# sourceMappingURL=header.css.map */
