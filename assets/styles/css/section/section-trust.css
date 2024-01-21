@@ -13,9 +13,11 @@ body {
   margin: 0 auto;
 }
 
-.trust .trust-row {
+.trust {
   margin-top: 120px;
-  margin-bottom: 120px;
+}
+.trust .trust-row {
+  padding-bottom: 120px;
 }
 .trust .trust-row .trust-title {
   display: flex;

@@ -242,9 +242,11 @@ body {
   flex-direction: column;
 }
 
-.trust .trust-row {
+.trust {
   margin-top: 120px;
-  margin-bottom: 120px;
+}
+.trust .trust-row {
+  padding-bottom: 120px;
 }
 .trust .trust-row .trust-title {
   display: flex;
@@ -316,6 +318,106 @@ body {
   font-size: 28px;
   font-weight: 500;
   line-height: 130%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-row .contact-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews {
+  margin-top: 100px;
+}
+.reviews .reviews-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.reviews .reviews-row .left-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reviews .reviews-row .left-btn .left-botton {
+  cursor: pointer;
+  padding: 12px 12px;
+  border-radius: 40px;
+  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1);
+}
+.reviews .reviews-row .user {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.reviews .reviews-row .user .user-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviews .reviews-row .user .comments {
+  display: flex;
+}
+.reviews .reviews-row .user .comments .comments-title {
+  color: #1A236E;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.reviews .reviews-row .user .name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+.reviews .reviews-row .user .name h3 {
+  color: #1A236E;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.reviews .reviews-row .user .name p {
+  color: rgba(26, 35, 110, 0.4);
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.reviews .reviews-row .user .carusel-btn {
+  display: flex;
+  padding-top: 64px;
+  justify-content: center;
+}
+.reviews .reviews-row .right-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reviews .reviews-row .right-btn .right-botton {
+  cursor: pointer;
+  padding: 12px 12px;
+  border-radius: 40px;
+  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.1);
 }
 
 /*# sourceMappingURL=style.css.map */

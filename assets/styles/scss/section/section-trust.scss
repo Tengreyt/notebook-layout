@@ -1,10 +1,9 @@
 @import '../layout.scss';
 @import '../variables.scss';
 .trust{
-    
+    margin-top: 120px;
     .trust-row{
-        margin-top: 120px;
-        margin-bottom: 120px;
+        padding-bottom: 120px;
         .trust-title{
             display: flex;
             flex-direction: column;
@@ -33,11 +32,14 @@
            justify-content: center;
            gap: 30px;
            margin-top: 64px;
-        //    1 карточка
+           
+
+        //    1 карточка(все карточки)
             .trust-card{
                 display: flex;
                 flex-direction: column;
                 max-width: 255px;
+
                 .percent{
                     display: flex;
                     padding-left: 87.5px;
