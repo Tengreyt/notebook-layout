@@ -1,0 +1,82 @@
+@import '../layout.scss';
+@import '../variables.scss';
+.trust{
+    
+    .trust-row{
+        margin-top: 120px;
+        margin-bottom: 120px;
+        .trust-title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 24px;
+            h1{
+                color: $primary;
+                text-align: center;
+                font-size: 64px;
+                font-weight: 700;
+                line-height: 68px; 
+            }
+            p{
+                color: rgba(26, 35, 110, 0.70);
+                text-align: center;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 130%; 
+                max-width: 720px;
+                margin: 0 auto;
+            }
+        }
+        // начало карточки
+        .cards{
+           display: flex;
+           justify-content: center;
+           gap: 30px;
+           margin-top: 64px;
+        //    1 карточка
+            .trust-card{
+                display: flex;
+                flex-direction: column;
+                max-width: 255px;
+                .percent{
+                    display: flex;
+                    padding-left: 87.5px;
+                    padding-right: 87.5px;
+                    .percent-circle{
+                        padding: 16px 16px;
+                        background: $secondary;
+                        border-radius: 40px;
+                        box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.10);
+                    }
+                }
+                .trust-card-title{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    padding-top: 32px;
+                    .trust-card-text{
+                        color: $primary;
+                        text-align: center;
+                        font-size: 28px;
+                        font-weight: 500;
+                        line-height: 130%; 
+                    }
+                    .trust-card-subtext{
+                        color: rgba(26, 35, 110, 0.40);
+                        text-align: center;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 24px; 
+                    }
+                    .trust-card-text-two{
+                        color: $primary;
+                        text-align: center;
+                        font-size: 28px;
+                        font-weight: 500;
+                        line-height: 130%; 
+                    }
+                }
+            }
+        }
+    }
+}
