@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.services {
+  background: #1A236E;
+  height: 800px;
+}
+.services .services-row {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 64px;
+}
+.services .services-row .service-packages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+.services .services-row .service-packages .service-packages-title {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+}
+.services .services-row .service-packages .service-packages-subtitle {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+}
+.services .services-row .services-card {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.services .services-row .services-card .services-diagnostics-card {
+  background: #fff;
+  border-radius: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 360px;
+}
+.services .services-row .services-card .services-diagnostics-card .rub {
+  padding-top: 32px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 24px;
+}
+.services .services-row .services-card .services-diagnostics-card .rub p {
+  color: #1A236E;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+}
+.services .services-row .services-card .services-diagnostics-card .services-team {
+  display: flex;
+  flex-direction: column;
+}
+.services .services-row .services-card .services-diagnostics-card .services-team .services-diagnostics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+.services .services-row .services-card .services-diagnostics-card .services-team .services-diagnostics h1 {
+  color: #1A236E;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.services .services-row .services-card .services-diagnostics-card .services-team .services-diagnostics p {
+  color: rgba(26, 35, 110, 0.7);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  min-height: 140px;
+}
+.services .services-row .services-card .services-diagnostics-card .services-team .btn-calculate {
+  display: flex;
+  justify-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 92px;
+  padding-bottom: 32px;
+}
+.services .services-row .services-card .services-diagnostics-card .services-team .btn-calculate .btn-calculate-yellow {
+  padding: 12px 115px;
+  border-radius: 6px;
+  background: #FCDF00;
+  cursor: pointer;
+}
+.services .services-row .services-card .services-diagnostics-card .services-team .btn-calculate .btn-calculate-yellow p {
+  color: #1A236E;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+/*# sourceMappingURL=section-services.css.map */

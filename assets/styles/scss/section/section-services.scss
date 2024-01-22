@@ -1,0 +1,104 @@
+@import '../layout.scss';
+@import '../variables.scss';
+.services{
+    background: $primary;
+    height: 800px;
+    .services-row{
+        padding-top: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 64px;
+        .service-packages{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 24px;
+            .service-packages-title{
+                color: $secondary;
+                text-align: center;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 52px; 
+            }
+            .service-packages-subtitle{
+                color: rgba(255, 255, 255, 0.70);
+                text-align: center;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 130%; 
+            }
+        }
+        .services-card{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            .services-diagnostics-card{
+                background: $secondary;
+                border-radius: 16px;
+                padding-left: 25px;
+                padding-right: 25px;
+                max-width: 360px;
+                .rub{
+                    padding-top: 32px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    padding-bottom: 24px;
+                    p{
+                        color: $primary;
+                        text-align: center;
+                        font-size: 48px;
+                        font-weight: 700;
+                        line-height: 52px; 
+                    }
+                }
+                .services-team{
+                    display: flex;
+                    flex-direction: column;
+                    .services-diagnostics{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 8px;
+                        h1{
+                            color: $primary;
+                            text-align: center;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 24px; 
+                        }
+                        p{
+                            color: rgba(26, 35, 110, 0.70);
+                            text-align: center;
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 20px; 
+                            min-height: 140px;
+                        }
+                    }
+                    .btn-calculate{
+                        display: flex;
+                        justify-content: center;
+                        padding-left: 24px;
+                        padding-right: 24px;
+                        padding-top: 92px;
+                        padding-bottom: 32px;
+                        .btn-calculate-yellow{
+                            padding: 12px 115px;
+                            border-radius: 6px;
+                            background: $tertiary;
+                            cursor: pointer;
+                            p{
+                                color: $primary;
+                                text-align: center;
+                                font-size: 15px;
+                                font-weight: 500;
+                                line-height: 20px; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
