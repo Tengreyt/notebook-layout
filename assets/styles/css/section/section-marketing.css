@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.marketing {
+  margin-top: 120px;
+}
+.marketing .marketing-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 64px;
+}
+.marketing .marketing-title p {
+  color: #1A236E;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 68px;
+}
+.marketing .partners {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+  gap: 30px;
+}
+
+/*# sourceMappingURL=section-marketing.css.map */

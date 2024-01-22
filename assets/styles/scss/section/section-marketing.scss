@@ -1,0 +1,24 @@
+@import '../layout.scss';
+@import '../variables.scss';
+
+.marketing{
+    margin-top: 120px;
+    .marketing-title{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 64px;
+        p{
+            color: $primary;
+            text-align: center;
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 68px; 
+        }
+    }
+    .partners{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 120px;
+        gap: 30px;
+    }
+}
