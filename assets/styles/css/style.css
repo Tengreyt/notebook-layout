@@ -537,4 +537,89 @@ body {
   line-height: 20px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-row .contact-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-row {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 64px;
+}
+.team-row .team-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+.team-row .team-title .text-team {
+  color: #FCDF00;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 130%;
+}
+.team-row .team-title h1 {
+  color: #1A236E;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 68px;
+}
+.team-row .team-title p {
+  color: rgba(26, 35, 110, 0.7);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+}
+.team-row .card-team {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+  gap: 30px;
+}
+.team-row .card-team .item-card {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.team-row .card-team .item-card .card-text {
+  padding-top: 24px;
+  color: #1A236E;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+}
+.team-row .card-team .item-card .card-subtext {
+  padding-top: 8px;
+  color: rgba(26, 35, 110, 0.7);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
 /*# sourceMappingURL=style.css.map */
