@@ -1,0 +1,130 @@
+@import '../layout.scss';
+@import '../variables.scss';
+
+.contactus{
+    padding-top: 100px;
+    height: 440px;
+    background:  rgba(26, 35, 110, 0.50);
+    .contactus-row{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .contactus-top-title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 16px;
+            h1{
+                color: $secondary;
+                text-align: center;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 52px; 
+            }
+            p{
+                color: var(--Text-Dark-Body, rgba(255, 255, 255, 0.80));
+                text-align: center;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 24px; 
+            }
+        }
+        // style для инпутов на контактах
+        .input-contactus{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            .form-name{
+                input{
+                    max-width: 260px;
+                    box-sizing: border-box;
+                    background: $secondary;
+                    border-bottom: 1px solid #ccc;
+                    padding: 20px 20px;
+                    height: 56px;
+                    border-radius: 8px;
+                    border: 1px solid var(--Elements-Light-Border, rgba(0, 0, 0, 0.10));
+                    outline: none;
+                    color: var(--black-20, rgba(95, 91, 91, .70));
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 24px; 
+                }
+            }
+            .form-tell{
+                input{
+                    max-width: 260px;
+                    box-sizing: border-box;
+                    background: $secondary;
+                    border-bottom: 1px solid #ccc;
+                    padding: 20px 20px;
+                    height: 56px;
+                    border-radius: 8px;
+                    border: 1px solid var(--Elements-Light-Border, rgba(0, 0, 0, 0.10));
+                    outline: none;
+                    color: var(--black-20, rgba(95, 91, 91, .70));
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 24px; 
+                }
+            }
+            .form-email{
+                input{
+                    max-width: 260px;
+                    box-sizing: border-box;
+                    background: $secondary;
+                    border-bottom: 1px solid #ccc;
+                    padding: 20px 20px;
+                    height: 56px;
+                    border-radius: 8px;
+                    border: 1px solid var(--Elements-Light-Border, rgba(0, 0, 0, 0.10));
+                    outline: none;
+                    color: var(--black-20, rgba(95, 91, 91, .70));
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 24px; 
+                }
+            }
+            .form-submit{
+                input{
+                    display: flex;
+                    max-width: 207px;
+                    box-sizing: border-box;
+                    background: $warning;
+                    border: 1px solid $warning;
+                    padding: 15px 32px;
+                    height: 56px;
+                    border-radius: 6px;
+                    align-items: center;
+                    outline: none;
+                    color: $secondary;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 24px; 
+                    cursor: pointer;
+                    transition: all .2s ease-in-out;
+                }
+                input:hover{
+                    box-shadow: 0px 0px 10px rgb(255, 7, 7);
+                }
+            }
+        }
+        .contactus-request{
+            display: flex;
+            justify-content: center;
+            p{
+                color: var(--Text-Dark-Label, rgba(255, 255, 255, 0.70));
+                text-align: center;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 20px; 
+                span{
+                    color: $secondary;
+                    font-size: 15px;
+                    font-weight: 700;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
