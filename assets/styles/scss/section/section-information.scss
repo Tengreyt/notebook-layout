@@ -1,0 +1,19 @@
+@import '../layout.scss';
+@import '../variables.scss';
+
+.information{
+    padding-top: 80px;
+    min-height: 970px;
+    .information-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        .information-col{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-bottom: 80px;
+        }
+    }
+}
