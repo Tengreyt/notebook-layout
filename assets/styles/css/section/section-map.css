@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.map {
+  position: relative;
+  z-index: 1;
+  background: #1A236E;
+  height: 800px;
+}
+.map .map-img img {
+  width: 705px;
+}
+.map .map-row {
+  display: flex;
+  padding-top: 120px;
+}
+.map .map-row .map-col {
+  margin-left: 125px;
+  margin-top: 120px;
+}
+.map .map-row .map-col h1 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.map .map-row .map-col p {
+  margin-top: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.map .map-row .map-col p span {
+  color: #fff;
+}
+
+/*# sourceMappingURL=section-map.css.map */
