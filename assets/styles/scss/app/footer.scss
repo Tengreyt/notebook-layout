@@ -1,0 +1,55 @@
+@import '../layout.scss';
+@import '../variables.scss';
+footer{
+    background: $tertiary;
+    .footer-row{
+        padding-top: 80px;
+        
+        display: flex;
+        justify-content: space-between;
+        .footer-reset{
+            display: flex;
+            p{
+                color: rgba(26, 35, 110, 0.60);
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 24px; 
+            }
+        }
+        .footer-nav{
+            .footer-nav-link{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 80px;
+                gap: 16px;
+                a{
+                    color: rgba(26, 35, 110, 0.80);
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            }
+        }
+        .footer-compani{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            p{
+                color: $primary;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 24px; 
+            }
+        }
+        .footer-logo{
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            img{
+                cursor: pointer;
+            }
+        }
+    }
+}
