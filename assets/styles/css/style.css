@@ -962,6 +962,25 @@ body {
   gap: 30px;
   margin-bottom: 80px;
 }
+.information .information-row .information-col .img-three {
+  transition: all 0.5s ease-in-out;
+}
+.information .information-row .information-col .img-three:hover {
+  transform: translateX(20px);
+}
+.information .information-row .information-col .img-two {
+  transition: all 0.5s ease-in-out;
+}
+.information .information-row .information-col .img-two:hover {
+  transform: translateY(20px);
+}
+.information .information-row div img {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.information .information-row div img:hover {
+  transform: translateX(-20px);
+}
 
 * {
   margin: 0;

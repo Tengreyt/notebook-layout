@@ -14,6 +14,27 @@
             flex-direction: column;
             gap: 30px;
             margin-bottom: 80px;
+            .img-three{
+                transition: all .5s ease-in-out;
+            }
+            .img-three:hover{
+                transform: translateX(20px);
+            }
+            .img-two{
+                transition: all .5s ease-in-out;
+            }
+            .img-two:hover {
+                transform: translateY(20px);
+            }
+        }
+        div{
+            img{
+              transition: all .5s ease-in-out;
+              cursor: pointer;
+            }
+            img:hover{
+                transform: translateX(-20px);
+              }
         }
     }
 }
